@@ -72,7 +72,7 @@ GitBook es una solución de documentación alojada, que genera un sitio atractiv
 
 ## Zola
 
-Zola es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca por su rendimiento, simplicidad y uso directo de Markdown. Ofrece soporte integrado para resaltado de sintaxis y taxonomías.
+[Zola] es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca por su rendimiento, simplicidad y uso directo de Markdown. Ofrece soporte integrado para resaltado de sintaxis y taxonomías.
 
 **Ventajas**
 
@@ -88,7 +88,7 @@ Zola es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca 
 
 ## Hugo
 
-Hugo es uno de los generadores más rápidos y populares, escrito en Go. Es flexible y tiene muchos temas disponibles. Es una opción sólida tanto para blogs como para documentación.
+[Hugo] es uno de los generadores más rápidos y populares, escrito en Go. Es flexible y tiene muchos temas disponibles. Es una opción sólida tanto para blogs como para documentación.
 
 **Ventajas**
 
@@ -104,7 +104,7 @@ Hugo es uno de los generadores más rápidos y populares, escrito en Go. Es flex
 
 ## Next.js
 
-Next.js es un framework basado en React para construir sitios web tanto estáticos como dinámicos. Permite experiencias de documentación altamente interactivas, aunque no está enfocado exclusivamente en documentación.
+[Next.js] es un framework basado en React para construir sitios web tanto estáticos como dinámicos. Permite experiencias de documentación altamente interactivas, aunque no está enfocado exclusivamente en documentación.
 
 **Ventajas**
 
@@ -153,3 +153,8 @@ Next.js es un framework basado en React para construir sitios web tanto estátic
 
 [Sphinx]: https://www.sphinx-doc.org/en/master/
 
+[Zola]: https://www.getzola.org/
+
+[Hugo]: https://gohugo.io/
+
+[Next.js]: https://nextjs.org/
