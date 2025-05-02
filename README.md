@@ -42,20 +42,11 @@
   more than 60 languages, for all devices.
 </p>
 
-<p align="center">
+<!-- p align="center">
   <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">
     <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/screenshot.png" width="700" />
   </a>
-</p>
-
-<p align="center">
-  <em>
-    Check out the demo –
-    <a
-      href="https://squidfunk.github.io/mkdocs-material/"
-    >squidfunk.github.io/mkdocs-material</a>.
-  </em>
-</p>
+</p -->
 
 <h2></h2>
 <p id="premium-sponsors">&nbsp;</p>
