@@ -1,6 +1,6 @@
 # Bienvenido a DZ MkDocs
 
-Esta documentación está generada con [MkDocs](https://www.mkdocs.org/) usando el tema `readthedocs`, un diseño limpio y clásico pensado para documentación técnica.
+Esta documentación está generada con [MkDocs](https://www.mkdocs.org/), con un theme de diseño limpio y clásico pensado para documentación técnica.
 
 ## Contenido
 

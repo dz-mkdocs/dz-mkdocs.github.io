@@ -1,7 +1,7 @@
 mkdocs
-mkdocs-minify-plugin==0.7.1
-mkdocs-git-revision-date-localized-plugin==1.2.0
-mkdocs-redirects==1.2.0
-pymdown-extensions==10.5
+mkdocs-minify-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-redirects
+pymdown-extensions
 mkdocs-material
 mkdocs-material-extensions
