@@ -1,5 +1,15 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Moverse a ese directorio
+cd "$SCRIPT_DIR"
+
+# Inicializar la variable con el path actual
+ACTUAL_PWD="$SCRIPT_DIR"
+
+echo $ACTUAL_PWD
+
 # Asegúrate de estar en la raíz del proyecto
 echo "[$(date)] Comprobando si estamos en la raíz del proyecto..."
 if [ ! -f "mkdocs.yml" ]; then
@@ -15,11 +25,11 @@ git push origin main
 
 # Construir el sitio con MkDocs
 echo "Generando sitio estático..."
-#mkdocs build
+mkdocs build
 
 # Desplegar a GitHub Pages
 echo "Desplegando a GitHub Pages..."
-#ghp-import -n -p -f site
+ghp-import -n -p -f site
 
 echo "Despliegue completado."
 

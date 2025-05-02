@@ -49,7 +49,7 @@
 </p -->
 
 <h2></h2>
-<p id="premium-sponsors">&nbsp;</p>
+<!-- p id="premium-sponsors">&nbsp;</p>
 <p align="center"><strong>Silver sponsors</strong></p>
 <p align="center">
   <a href="https://fastapi.tiangolo.com/" target=_blank><img
@@ -185,7 +185,7 @@
   <a href="https://www.centara.com/" target=_blank><img
     src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-centara.png" height="58"
   /></a>
-</p>
+</p -->
 <p>&nbsp;</p>
 
 ## Everything you would expect
