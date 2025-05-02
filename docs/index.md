@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: DZ MkDocs
 social:
   cards_layout_options:
     title: Documentation that simply works
 ---
 
-Welcome to Material for MkDocs.
+Bienvenido a mi MkDocs basado en theme Material.
