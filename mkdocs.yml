@@ -1,0 +1,41 @@
+site_name: DZ MkDocs
+site_url: https://dz-mkdocs.github.io/
+#repo_url: https://github.com/dz-mkdocs
+# IMPORTANTE para GitHub Pages
+use_directory_urls: false
+
+theme:
+  name: readthedocs
+  custom_dir: overrides
+  highlightjs: true
+  navigation_depth: 3
+
+nav:
+  - Home: index.md
+  - Microsoft Learn:
+      - Check your knowledge: microsoft-learn/quiz.md
+
+extra_javascript:
+  - assets/js/quiz.js
+
+extra_css:
+  - assets/css/quiz.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+  - attr_list  #<- ChatGPT propone solo este
+  - md_in_html #<- ChatGPT propone solo este
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.tabbed
+
+plugins:
+  - search
+
+
