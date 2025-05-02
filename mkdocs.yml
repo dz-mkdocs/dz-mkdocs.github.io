@@ -1,14 +1,9 @@
 site_name: DZ MkDocs
 site_url: https://dz-mkdocs.github.io/
-#repo_url: https://github.com/dz-mkdocs
-# IMPORTANTE para GitHub Pages
-#use_directory_urls: false
+use_directory_urls: false
 
 theme:
-  name: material # readthedocs
-  custom_dir: overrides
-  highlightjs: true
-  navigation_depth: 3
+  name: readthedocs
 
 nav:
   - Home: index.md
@@ -27,8 +22,8 @@ markdown_extensions:
   - tables
   - admonition
   - footnotes
-  - attr_list  #<- ChatGPT propone solo este
-  - md_in_html #<- ChatGPT propone solo este
+  - attr_list
+  - md_in_html
   - def_list
   - pymdownx.superfences
   - pymdownx.details
@@ -37,5 +32,7 @@ markdown_extensions:
 
 plugins:
   - search
-
+  - minify
+  - git-revision-date-localized
+  - redirects
 

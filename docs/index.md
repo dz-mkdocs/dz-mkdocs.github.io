@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Bienvenido a DZ MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Esta documentación está generada con [MkDocs](https://www.mkdocs.org/) usando el tema `readthedocs`, un diseño limpio y clásico pensado para documentación técnica.
 
-## Commands
+## Contenido
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Recursos técnicos organizados por tema
+- Enlaces útiles para formación
 
-## Project layout
+## Próximamente
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Actualizaciones con nuevas secciones y funcionalidades interactivas.
+
+---
+
+[Ver en GitHub](https://github.com/dz-mkdocs/dz-mkdocs.github.io)

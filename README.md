@@ -1,23 +1,17 @@
-# dz-mkdocs
+# DZ MkDocs (ReadTheDocs version)
+  
+> Sitio generado con MkDocs y el tema `readthedocs`.
+>
+> Este sitio está generado con [MkDocs](https://www.mkdocs.org/) y publicado automáticamente en GitHub Pages en:  
 
-Este repositorio contiene una de mis documentaciones de proyectos y/o tutoriales y tips, generados usando **MkDocs** y el theme **Read the Docs**. La documentación se despliega y versiona utilizando **GitHub Pages**.
+👉 https://dz-mkdocs.github.io
+ 
+## Estructura (base - inicial mínima) 
 
-## Descripción
-
-Este sitio web sirve como un portal de documentación personal, albergando proyectos, tutoriales y recursos relacionados con temas como:
-
-- **Microsoft Learn**
-- **Linux**
-- **Redes y Seguridad**
-- Y más...
-
-La documentación es generada con **MkDocs**, generador de sitios estáticos para proyectos basados en Markdown, y se despliega usando **GitHub Pages** en la URL:  
-[https://dz-mkdocs.github.io](https://dz-mkdocs.github.io).
-
-## Estructura del Proyecto
-
-Este proyecto sigue la siguiente estructura de carpetas y archivos:
-
+_Nota autor:_ La estructura siguiente no es la completa y es solo a modo de referencia inicial de este sitio basado en SSG MkDocs.
+                                                                                                                                                                                                                             
+Este proyecto sigue la siguiente estructura de carpetas y archivos (inicial/básica):
+ 
 ```
 ./
 ├── docs/
@@ -31,96 +25,49 @@ Este proyecto sigue la siguiente estructura de carpetas y archivos:
 └── .gitignore                      # Archivos y carpetas ignorados por Git
 ```
 
-## Cómo Ejecutar el Proyecto Localmente
+_Donde:_
 
-Si deseas ejecutar este sitio localmente, puedes hacerlo de la siguiente manera:
+- `docs/`: Contenido del sitio en Markdown.
+- `overrides/`: Personalizaciones del tema (HTML).
+- `mkdocs.yml`: Configuración principal del sitio.
+- `.github/workflows/gh-pages.yml`: Despliegue automático en GitHub Pages.
+- `site/`: Carpeta generada automáticamente al ejecutar `mkdocs build`.
 
-1. Clona el repositorio:
-   ```bash
-   git clone git@github.com:dz-mkdocs/dz-mkdocs.github.io.git 
-   cd dz-mkdocs.github.io
-   ```
-
-2. Instala las dependencias:
-   Si no tienes un entorno virtual de Python configurado, puedes crear uno:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # En Linux/macOS
-   .venv\Scripts\activate     # En Windows
-   ```
-
-   Luego, instala las dependencias de MkDocs:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ejecuta el servidor de desarrollo:
-   ```bash
-   mkdocs serve
-   ```
-
-   El sitio estará disponible en `http://127.0.0.1:8000/`.
-
-## Despliegue en GitHub Pages
-
-1. **Despliegue automático**: Una vez que se realiza un `git push` al repositorio, GitHub Pages automáticamente despliega la última versión de la documentación en la URL configurada (`https://danielzamo.github.io/mkdocs`).
-
-2. **Despliegue manual**: También puedes desplegar manualmente usando `mkdocs gh-deploy`, que sube los archivos generados a la rama `gh-pages` de este repositorio.
-
-   ```bash
-   mkdocs gh-deploy
-   ```
-
-   Este comando generará el sitio estático y lo publicará en GitHub Pages.
-
-## Personalización
-
-Puedes personalizar el theme y las configuraciones del sitio editando el archivo `mkdocs.yml` y modificando las páginas de Markdown dentro de la carpeta `docs/`.
-
-### Ejemplo de archivo `mkdocs.yml`:
-
-_Nota del autor:_ Ajustar/revisar según corresponda.
-
-```yaml
-site_name: MkDocs DZ Docs
-theme:
-  name: readthedocs
-
-nav:
-  - Home: index.md
-  - Microsoft Learn:
-      - Quiz: microsoft-learn/quiz.md
-
-plugins:
-  - search
-
-use_directory_urls: false
-
-repo_url: https://github.com/danielzamo/mkdocs
-```
-
-## Requerimientos
-
-- **MkDocs**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
-- **Read the Docs theme**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
-
-Para instalar las dependencias necesarias, puedes ejecutar:
+## Cómo levantar el sitio en local
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+mkdocs serve
 ```
 
-## Contribuciones
+El sitio queda disponible en `http://127.0.0.1:8000` .
 
-Si deseas contribuir a la mejora de la documentación o agregar nuevas secciones, ¡estás invitado a hacerlo! Solo sigue estos pasos:
+## Cómo desplegar en GitHub Pages
 
-1. Haz un fork del repositorio.
-2. Crea una rama con tu cambio: `git checkout -b feature/nueva-seccion`.
-3. Realiza tus cambios y haz commit.
-4. Haz push a tu rama: `git push origin feature/nueva-seccion`.
-5. Abre un pull request.
+Cada vez que que se hace push a la rama `main`, GitHub Actions generará y publicará el sitio en la rama `gh-pages`.
 
-## Licencia
+👉 `.github/workflows/gh-pages.yml`
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+## Notas extras
 
+### Cambiar de tema
+
+Para usar otro tema (como `material`):
+
+1. Edita `mkdocs.yml` y reemplaza:
+   ```yaml
+   theme:
+     name: material
+   ```
+2. Instala el tema (si no está):
+   ```bash
+   pip install mkdocs-theme-readthedocs
+   ```
+
+## Requisitos
+
+Ver `requirements.txt`.
+
+© DZ MkDocs, bajo Licencia MIT
