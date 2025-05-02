@@ -2,6 +2,10 @@
 DEBUG/
 my-code/
 tutorial-in-devel/
+**/*.initial
+**/*-local*
+**/*
+**/*localhost
 # Entorno virtual de Python
 .venv/
 
