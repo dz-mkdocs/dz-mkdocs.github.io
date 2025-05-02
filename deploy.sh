@@ -20,9 +20,10 @@ fi
 
 # Confirmar cambios y subir a la rama 'main'
 echo "[$(date)] Añadiendo cambios al repositorio..."
-git add .
-git commit -m "Actualización de contenido"
-git push origin main
+#git add .
+#git commit -m "Actualización de contenido"
+#git push origin main
+git add .; git commit -m "[$(date)] Actualización de contenido"; git push 
 
 # Construir el sitio con MkDocs
 echo "Generando sitio estático..."
@@ -30,7 +31,8 @@ mkdocs build
 
 # Desplegar a GitHub Pages
 echo "Desplegando a GitHub Pages..."
-ghp-import -n -p -f site
+#ghp-import -n -p -f site
+mkdocs gh-deploy
 
 echo "Despliegue completado."
 

@@ -1,107 +1,152 @@
-# Alternatives
+<!-- Inicio del contenido Markdown -->
 
-Existen muchos generadores de sitios web estáticos (SSG) y temas, y elegir el adecuado para tu stack tecnológico es una decisión difícil. Si no estás seguro de si Material for MkDocs es la solución ideal para ti, esta sección te ayudará a evaluar alternativas.
+# Alternativas
+
+Existen muchos generadores de sitios estáticos y temas disponibles, elegir el adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
 
 ## Docusaurus
 
-[Docusaurus] de Facebook es un generador de documentación muy popular y una buena opción si tú o tu empresa ya utilizan [React] para crear su sitio web.
-Generará una [aplicación de página única] que es fundamentalmente diferente del sitio que Material for MkDocs genera.
+[Docusaurus], de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página, lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
 
-__Ventajas__
+**Ventajas**
 
-- Very powerful, customizable and extendable
-- Provides many components that aid in technical writing
-- Large and rich ecosystem, backed by Facebook
+- Muy potente, personalizable y extensible  
+- Ofrece muchos componentes útiles para la escritura técnica  
+- Ecosistema amplio y respaldado por Facebook
 
-__Challenges__
+**Desafíos**
 
-- High learning curve, JavaScript knowledge mandatory
-- JavaScript ecosystem is very volatile, rather high maintenance
-- More time needed to get up and running
-
-While [Docusaurus] is one of the best choices when it comes to documentation
-sites that output a single page application, there are many more solutions,
-including [Docz], [Gatsby], [Vuepress] and [Docsify] that approach
-this problem similarly.
-
-  [Docusaurus]: https://docusaurus.io/
-  [React]: https://reactjs.org/
-  [single page application]: https://en.wikipedia.org/wiki/Single-page_application
-  [Docz]: https://www.docz.site/
-  [Gatsby]: https://www.gatsbyjs.com/
-  [VuePress]: https://vuepress.vuejs.org/
-  [Docsify]: https://docsify.js.org/
+- Curva de aprendizaje alta, se requiere conocimiento de JavaScript  
+- Ecosistema JavaScript volátil, mantenimiento elevado  
+- Requiere más tiempo para comenzar
 
 ## Jekyll
 
-[Jekyll] is probably one of the most mature and widespread static site
-generators and is written in [Ruby]. It is not specifically geared towards
-technical project documentation and has many themes to choose from, which
-can be challenging.
+[Jekyll] es uno de los generadores de sitios estáticos más maduros y extendidos, escrito en Ruby. No está enfocado específicamente en documentación técnica, y tiene muchos temas entre los que elegir, lo cual puede ser abrumador.
 
-__Advantages__
+**Ventajas**
 
-- Battle-tested, rich ecosystem, many themes to choose from
-- Brings great capabilities for blogging  (permalinks, tags, etc.)
-- Generates a SEO-friendly site, similar to Material for MkDocs
+- Altamente probado, ecosistema sólido, gran variedad de temas  
+- Muy bueno para blogs (permalinks, etiquetas, etc.)  
+- Genera un sitio optimizado para SEO, similar a [MkDocs]
 
-__Challenges__
+**Desafíos**
 
-- Not specifically geared towards technical project documentation
-- Limited Markdown capabilities, not as advanced as Python Markdown
-- More time needed to get up and running
-
-  [Jekyll]: https://jekyllrb.com/
-  [Ruby]: https://www.ruby-lang.org/de/
+- No está orientado a documentación técnica por defecto  
+- Capacidades Markdown limitadas en comparación con Python Markdown  
+- Requiere más tiempo para poner en marcha
 
 ## Sphinx
 
-[Sphinx] is an alternative static site generator specifically geared towards
-generating reference documentation, offering powerful capabilities that are
-lacking in MkDocs. It uses [reStructured text], a format similar to Markdown,
-which some users find harder to use.
+Sphinx es un generador de sitios estáticos orientado específicamente a generar documentación de referencia. Ofrece capacidades potentes que [MkDocs] no incluye. Usa reStructuredText, un formato similar a Markdown que algunos consideran más complejo.
 
-__Advantages__
+**Ventajas**
 
-- Very powerful, customizable and extendable
-- Generates reference documentation from [Python docstrings]
-- Large and rich ecosystem, used by many Python projects
+- Muy potente, personalizable y extensible  
+- Genera documentación desde docstrings en Python  
+- Ecosistema amplio, adoptado por muchos proyectos en Python
 
-__Challenges__
+**Desafíos**
 
-- High learning curve, [reStructured text] syntax might be challenging
-- Search is less powerful than the one provided by MkDocs
-- More time needed to get up and running
+- Curva de aprendizaje alta, sintaxis de reStructuredText compleja  
+- Buscador menos potente que el de [MkDocs]  
+- Requiere más tiempo para comenzar
 
-If you're considering using Sphinx because you need to generate reference
-documentation, you should give [mkdocstrings] a try – an actively maintained
-and popular framework building on top of MkDocs, implementing Sphinx-like
-functionality.
-
-  [Sphinx]: https://www.sphinx-doc.org/
-  [reStructured text]: https://en.wikipedia.org/wiki/ReStructuredText
-  [Python docstrings]: https://www.python.org/dev/peps/pep-0257/
-  [mkdocstrings]: https://github.com/mkdocstrings/mkdocstrings
+> Si consideras usar Sphinx para documentación de referencia, puedes probar **mkdocstrings**, un framework basado en [MkDocs] que ofrece funcionalidades similares a Sphinx.
 
 ## GitBook
 
-[GitBook] offers a hosted documentation solution that generates a beautiful and
-functional site from Markdown files in your GitHub repository. However, it was
-once Open Source, but turned into a closed source solution some time ago.
+GitBook es una solución de documentación alojada, que genera un sitio atractivo y funcional a partir de archivos Markdown en tu repositorio de GitHub. Anteriormente fue software libre, pero pasó a ser de código cerrado.
 
-__Advantages__
+**Ventajas**
 
-- Hosted solution, minimal technical knowledge required
-- Custom domains, authentication and other enterprise features
-- Great collaboration features for teams
+- Solución hospedada, requiere pocos conocimientos técnicos  
+- Dominios personalizados, autenticación y funciones empresariales  
+- Colaboración en equipo muy optimizada
 
-__Challenges__
+**Desafíos**
 
-- Closed source, not free for proprietary projects
-- Limited Markdown capabilities, not as advanced as Python Markdown
-- Many Open Source projects moved away from GitBook
+- Código cerrado, no gratuito para proyectos propietarios  
+- Markdown limitado, no tan avanzado como Python Markdown  
+- Muchos proyectos Open Source migraron fuera de GitBook
 
-Many users switched from [GitBook] to Material for MkDocs, as they want to keep
-control and ownership of their documentation, favoring an Open Source solution.
+> Muchos usuarios migraron de GitBook a Material for [MkDocs] para mantener el control y propiedad de su documentación, prefiriendo una solución abierta.
 
-  [GitBook]: https://www.gitbook.com/
+## Zola
+
+Zola es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca por su rendimiento, simplicidad y uso directo de Markdown. Ofrece soporte integrado para resaltado de sintaxis y taxonomías.
+
+**Ventajas**
+
+- Velocidades de construcción extremadamente rápidas gracias a Rust  
+- Binario único sin dependencias  
+- Ideal para sitios simples o centrados en contenido
+
+**Desafíos**
+
+- Ecosistema de plugins limitado  
+- El lenguaje de plantillas (Tera) puede ser restrictivo  
+- Menos apto para proyectos de documentación complejos
+
+## Hugo
+
+Hugo es uno de los generadores más rápidos y populares, escrito en Go. Es flexible y tiene muchos temas disponibles. Es una opción sólida tanto para blogs como para documentación.
+
+**Ventajas**
+
+- Velocidad sobresaliente incluso en sitios grandes  
+- Organización de contenido y tematización muy flexibles  
+- Comunidad grande y activa, con muchos temas
+
+**Desafíos**
+
+- Curva de aprendizaje más empinada en plantillas y estructura  
+- No está orientado a documentación técnica de forma nativa  
+- Para funcionalidades avanzadas, puede requerir soluciones personalizadas
+
+## Next.js
+
+Next.js es un framework basado en React para construir sitios web tanto estáticos como dinámicos. Permite experiencias de documentación altamente interactivas, aunque no está enfocado exclusivamente en documentación.
+
+**Ventajas**
+
+- Flexibilidad total con componentes React y rutas dinámicas  
+- Ideal para mezclar documentación, UI de apps y datos dinámicos  
+- Soporte empresarial y despliegue fácil con Vercel
+
+**Desafíos**
+
+- Alta complejidad, no es una solución "plug-and-play"  
+- Requiere conocimientos avanzados de React y JavaScript  
+- Excesivo para documentación estática sencilla
+
+## 📊 Tabla comparativa resumen
+
+| Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Enfoque en Docs Técnicas | Requiere JS/React | Código Abierto |
+|---------------|---------------|------------------|-----------|---------------------------|--------------------|----------------|
+| **[MkDocs]**    | Python        | Alta             | Alta      | ✅ Muy fuerte             | ❌ No              | ✅ Sí          |
+| **[Docusaurus]**| JavaScript    | Media-baja       | Media     | ✅ Sí (SPA)               | ✅ Sí              | ✅ Sí          |
+| **[Jekyll]**    | Ruby          | Media            | Media     | ⚠️ Limitado               | ❌ No              | ✅ Sí          |
+| **Sphinx**    | Python        | Baja             | Media     | ✅ Fuerte en referencia    | ❌ No              | ✅ Sí          |
+| **GitBook**   | Web / JS      | Muy alta         | Alta      | ⚠️ Limitado (Markdown)    | ❌ No              | ❌ No (cerrado)|
+| **Zola**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
+| **Hugo**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
+| **Next.js**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
+
+<!-- Fin del contenido Markdown -->
+
+[Docusaurus]: https://docusaurus.io/
+
+[React]: https://reactjs.org/
+
+[single page application]: https://en.wikipedia.org/wiki/Single-page_application
+
+[Docz]: https://www.docz.site/
+
+[Gatsby]: https://www.gatsbyjs.com/
+
+[VuePress]: https://vuepress.vuejs.org/
+
+[Docsify]: https://docsify.js.org/
+
+[GitBook]: https://www.gitbook.com/
