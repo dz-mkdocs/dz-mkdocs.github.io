@@ -31,7 +31,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Docusaurus
 
-[Docusaurus], desarrollado por Facebook, es un generador de documentación muy popular y una buena elección si tú (o tu empresa) ya estás usando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es una diferencia clave con Material for [MkDocs].
+**[Docusaurus]**, desarrollado por Facebook, es un generador de documentación muy popular y una buena elección si tú (o tu empresa) ya estás usando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es una diferencia clave con Material for [MkDocs].
 
 **Ventajas**
 - Muy potente, personalizable y extensible  
@@ -47,7 +47,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Jekyll
 
-[Jekyll] es uno de los SSG más antiguos y ampliamente utilizados. Escrito en Ruby, está más orientado a blogs que a documentación técnica, aunque se puede adaptar para ello.
+**[Jekyll]** es uno de los SSG más antiguos y ampliamente utilizados. Escrito en Ruby, está más orientado a blogs que a documentación técnica, aunque se puede adaptar para ello.
 
 **Ventajas**
 - Madurez del ecosistema, amplia variedad de temas  
@@ -63,7 +63,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Sphinx
 
-[Sphinx] está diseñado específicamente para generar documentación técnica detallada y es ampliamente adoptado por proyectos Python.
+**[Sphinx]** está diseñado específicamente para generar documentación técnica detallada y es ampliamente adoptado por proyectos Python.
 
 **Ventajas**
 - Potente y personalizable  
@@ -81,7 +81,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## GitBook
 
-[GitBook] ofrece una solución de documentación alojada, basada en Markdown. Fue originalmente de código abierto, pero ahora es cerrado y orientado al mercado empresarial.
+**[GitBook]** ofrece una solución de documentación alojada, basada en Markdown. Fue originalmente de código abierto, pero ahora es cerrado y orientado al mercado empresarial.
 
 **Ventajas**
 - Requiere conocimientos técnicos mínimos  
@@ -99,7 +99,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Zola
 
-[Zola] es un generador extremadamente rápido, escrito en Rust. Ideal para sitios centrados en contenido simple, con un flujo de trabajo muy directo.
+**[Zola]** es un generador extremadamente rápido, escrito en Rust. Ideal para sitios centrados en contenido simple, con un flujo de trabajo muy directo.
 
 **Ventajas**
 - Velocidad de compilación muy alta  
@@ -115,7 +115,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Hugo
 
-[Hugo] es uno de los generadores más potentes y rápidos, usado ampliamente tanto para blogs como para proyectos de documentación.
+**[Hugo]** es uno de los generadores más potentes y rápidos, usado ampliamente tanto para blogs como para proyectos de documentación.
 
 **Ventajas**
 - Excelente rendimiento, incluso con sitios grandes  
@@ -131,7 +131,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## Next.js
 
-[Next.js] es un framework basado en React que permite construir tanto sitios estáticos como dinámicos. Se usa para aplicaciones interactivas y portales de documentación avanzados.
+**[Next.js]** es un framework basado en React que permite construir tanto sitios estáticos como dinámicos. Se usa para aplicaciones interactivas y portales de documentación avanzados.
 
 **Ventajas**
 - Máxima flexibilidad y control sobre el frontend  
@@ -147,7 +147,7 @@ Un Generador de Sitios Estáticos (SSG, por sus siglas en inglés) es una herram
 
 ## ¿Por qué se eligió MkDocs?
 
-La decisión de utilizar [MkDocs] se basa en su enfoque claro y directo en la documentación técnica. Su uso de Markdown, integración con Python y compatibilidad con el tema _Material for MkDocs_ lo hacen una opción ideal para proyectos que priorizan claridad, estructura y eficiencia en el proceso de escritura.
+La decisión de utilizar **[MkDocs]** para generar este sitio, se basa en su enfoque claro y directo en la documentación técnica. Su uso de Markdown, integración con Python y compatibilidad con el tema _Material for MkDocs_ lo hacen una opción ideal para proyectos que priorizan claridad, estructura y eficiencia en el proceso de escritura.
 
 ---
 
