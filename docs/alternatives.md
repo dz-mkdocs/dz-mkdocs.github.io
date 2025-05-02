@@ -1,6 +1,6 @@
 # Alternativas de SSG
 
-Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean estos, orientados exclusivamente a la documentación técnica o no), elegir el más adecuado para un stack tecnológico en particular puede ser una decisión difícil. En este sitio personal de documentación se utiliza _Material for [MkDocs]_. Si no se esta seguro de que este sea la solución correcta para ti, en esta sección se evaluan algunas soluciones alternativas, y justifica el porque del elegido en este sitio.
+Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean estos, orientados exclusivamente a la documentación técnica o no), elegir el más adecuado para un stack tecnológico específico puede resultar desafiante. En este sitio personal de documentación se utiliza _Material for [MkDocs]_. Si no se esta seguro de que este sea la solución correcta para ti, en esta sección se evaluan algunas soluciones alternativas, y justifica el porque del elegido en este sitio.
 
 ## Sitio [Jamstack]
 
@@ -16,7 +16,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## 📊 Enumeración de algunos pocos SSG
 
-| Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Enfoque en Docs Técnicas | Requiere JS/React | Código Abierto |
+| Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Orientado a documentación Técnica | Requiere JS/React | Código Abierto |
 |---------------|---------------|------------------|-----------|---------------------------|--------------------|----------------|
 | **[MkDocs]**    | Python        | Alta             | Alta      | ✅ Muy fuerte             | ❌ No              | ✅ Sí          |
 | **[Docusaurus]**| JavaScript    | Media-baja       | Media     | ✅ Sí (SPA)               | ✅ Sí              | ✅ Sí          |
@@ -29,7 +29,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Docusaurus
 
-[Docusaurus], de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
+**[Docusaurus]**, de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
 
 **Ventajas**
 
@@ -45,7 +45,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Jekyll
 
-[Jekyll] es uno de los generadores de sitios estáticos más maduros y extendidos, escrito en Ruby. No está enfocado específicamente en documentación técnica, y tiene muchos temas entre los que elegir, lo cual puede ser abrumador.
+**[Jekyll]** es uno de los generadores de sitios estáticos más maduros y extendidos, escrito en Ruby. No está enfocado específicamente en documentación técnica, y tiene muchos temas entre los que elegir, lo cual puede ser abrumador.
 
 **Ventajas**
 
@@ -61,7 +61,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Sphinx
 
-[Sphinx] es un generador de sitios estáticos orientado específicamente a generar documentación de referencia. Ofrece capacidades potentes que [MkDocs] no incluye. Usa reStructuredText, un formato similar a Markdown que algunos consideran más complejo.
+**[Sphinx]** es un generador de sitios estáticos orientado específicamente a generar documentación de referencia. Ofrece capacidades potentes que [MkDocs] no incluye. Usa reStructuredText, un formato similar a Markdown que algunos consideran más complejo.
 
 **Ventajas**
 
@@ -79,7 +79,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## GitBook
 
-[GitBook] es una solución de documentación alojada, que genera un sitio atractivo y funcional a partir de archivos Markdown en tu repositorio de GitHub. Anteriormente fue software libre, pero pasó a ser de código cerrado.
+**[GitBook]** es una solución de documentación alojada, que genera un sitio atractivo y funcional a partir de archivos Markdown en tu repositorio de GitHub. Anteriormente fue software libre, pero pasó a ser de código cerrado.
 
 **Ventajas**
 
@@ -97,7 +97,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Zola
 
-[Zola] es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca por su rendimiento, simplicidad y uso directo de Markdown. Ofrece soporte integrado para resaltado de sintaxis y taxonomías.
+**[Zola]** es un generador de sitios estáticos muy rápido, escrito en Rust. Destaca por su rendimiento, simplicidad y uso directo de Markdown. Ofrece soporte integrado para resaltado de sintaxis y taxonomías.
 
 **Ventajas**
 
@@ -113,7 +113,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Hugo
 
-[Hugo] es uno de los generadores más rápidos y populares, escrito en Go. Es flexible y tiene muchos temas disponibles. Es una opción sólida tanto para blogs como para documentación.
+**[Hugo]** es uno de los generadores más rápidos y populares, escrito en Go. Es flexible y tiene muchos temas disponibles. Es una opción sólida tanto para blogs como para documentación.
 
 **Ventajas**
 
@@ -129,7 +129,7 @@ Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erram
 
 ## Next.js
 
-[Next.js] es un framework basado en React para construir sitios web tanto estáticos como dinámicos. Permite experiencias de documentación altamente interactivas, aunque no está enfocado exclusivamente en documentación.
+**[Next.js]** es un framework basado en React para construir sitios web tanto estáticos como dinámicos. Permite experiencias de documentación altamente interactivas, aunque no está enfocado exclusivamente en documentación.
 
 **Ventajas**
 
