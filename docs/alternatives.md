@@ -1,8 +1,6 @@
-<!-- Inicio del contenido Markdown -->
+# Alternativas de SSG
 
-# Alternativas
-
-Existen muchos generadores de sitios estáticos y temas disponibles (sean orientados esclusivamente a la documentación técnica o no), elegir el más adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
+Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean orientados esclusivamente a la documentación técnica o no), elegir el más adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
 
 ## Docusaurus
 
@@ -150,3 +148,5 @@ Next.js es un framework basado en React para construir sitios web tanto estátic
 [Docsify]: https://docsify.js.org/
 
 [GitBook]: https://www.gitbook.com/
+
+[Jekyll]: https://jekyllrb.com/
