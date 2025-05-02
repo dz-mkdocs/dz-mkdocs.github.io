@@ -6,6 +6,8 @@ tutorial-in-devel/
 **/*-local*
 **/*
 **/*localhost
+zz-legacy/
+
 # Entorno virtual de Python
 .venv/
 
