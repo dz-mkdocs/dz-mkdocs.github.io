@@ -1,4 +1,4 @@
-# mkdocs-dz-docs
+# dz-mkdocs
 
 Este repositorio contiene una de mis documentaciones de proyectos y/o tutoriales y tips, generados usando **MkDocs** y el theme **Read the Docs**. La documentación se despliega y versiona utilizando **GitHub Pages**.
 
@@ -11,15 +11,15 @@ Este sitio web sirve como un portal de documentación personal, albergando proye
 - **Redes y Seguridad**
 - Y más...
 
-La documentación es generada con **MkDocs**, un generador de sitios estáticos para proyectos basados en Markdown, y se despliega usando **GitHub Pages** en la URL:  
-[https://danielzamo.github.io/mkdocs](https://danielzamo.github.io/mkdocs).
+La documentación es generada con **MkDocs**, generador de sitios estáticos para proyectos basados en Markdown, y se despliega usando **GitHub Pages** en la URL:  
+[https://dz-mkdocs.github.io](https://dz-mkdocs.github.io).
 
 ## Estructura del Proyecto
 
 Este proyecto sigue la siguiente estructura de carpetas y archivos:
 
 ```
-mkdocs-dz-docs/
+./
 ├── docs/
 │   ├── index.md                   # Página principal
 │   ├── microsoft-learn/
@@ -37,8 +37,8 @@ Si deseas ejecutar este sitio localmente, puedes hacerlo de la siguiente manera:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/danielzamo/mkdocs.git
-   cd mkdocs-dz-docs
+   git clone git@github.com:dz-mkdocs/dz-mkdocs.github.io.git 
+   cd dz-mkdocs.github.io
    ```
 
 2. Instala las dependencias:
@@ -78,6 +78,8 @@ Si deseas ejecutar este sitio localmente, puedes hacerlo de la siguiente manera:
 Puedes personalizar el theme y las configuraciones del sitio editando el archivo `mkdocs.yml` y modificando las páginas de Markdown dentro de la carpeta `docs/`.
 
 ### Ejemplo de archivo `mkdocs.yml`:
+
+_Nota del autor:_ Ajustar/revisar según corresponda.
 
 ```yaml
 site_name: MkDocs DZ Docs
