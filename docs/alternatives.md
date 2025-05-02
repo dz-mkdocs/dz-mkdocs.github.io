@@ -1,8 +1,20 @@
 # Alternativas de SSG
 
-Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean orientados esclusivamente a la documentación técnica o no), elegir el más adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
+Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean estos, orientados exclusivamente a la documentación técnica o no), elegir el más adecuado para un stack tecnológico en particular puede ser una decisión difícil. En este sitio personal de documentación se utiliza _Material for [MkDocs]_. Si no se esta seguro de que este sea la solución correcta para ti, en esta sección se evaluan algunas soluciones alternativas, y justifica el porque del elegido en este sitio.
 
-## 📊 Tabla comparativa - algunos SSG
+## Sitio [Jamstack]
+
+El sitio [Jamstack].org es el sitio oficial que promueve la arquitectura [Jamstack] (JavaScript, APIs y Markup) para crear sitios web rápidos y seguros.
+
+Como enfoque arquitectónico, [Jamstack] propone una separación del frontend (estático) del backend; usa HTML pre-generado, APIs y JavaScript para velocidad, seguridad y escalabilidad.
+
+El contenido en [jamstack.org/generators] lista generadores de sitios estáticos compatibles con esta arquitectura, como [Hugo], [Jekyll] o [Zola], ayudando a elegir herramientas según necesidades específicas.
+
+## Generadores de sitios estáticos
+
+Un Generador de Sitios Estáticos (o SSG, por sus siglas en ingles) es una erramienta que convierte archivos (como Markdown) en páginas HTML listas para publicar (sobre la Web).
+
+## 📊 Enumeración de algunos pocos SSG
 
 | Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Enfoque en Docs Técnicas | Requiere JS/React | Código Abierto |
 |---------------|---------------|------------------|-----------|---------------------------|--------------------|----------------|
@@ -14,14 +26,6 @@ Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean 
 | **[Zola]**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
 | **[Hugo]**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
 | **[Next.js]**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
-
-## Sitio [Jamstack]
-
-> El sitio [Jamstack].org es el sitio oficial que promueve la arquitectura [Jamstack] (JavaScript, APIs y Markup) para crear sitios web rápidos y seguros.
->
-> El contenido en [jamstack.org/generators] lista generadores de sitios estáticos compatibles con esta arquitectura, como [Hugo], [Jekyll] o [Zola], ayudando a elegir herramientas según necesidades específicas.
->
-
 
 ## Docusaurus
 
@@ -71,11 +75,11 @@ Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean 
 - Buscador menos potente que el de [MkDocs]  
 - Requiere más tiempo para comenzar
 
-> Si consideras usar Sphinx para documentación de referencia, puedes probar **mkdocstrings**, un framework basado en [MkDocs] que ofrece funcionalidades similares a Sphinx.
+> Si consideras usar [Sphinx] para documentación de referencia, puedes probar **mkdocstrings**, un framework basado en [MkDocs] que ofrece funcionalidades similares a [Sphinx].
 
 ## GitBook
 
-GitBook es una solución de documentación alojada, que genera un sitio atractivo y funcional a partir de archivos Markdown en tu repositorio de GitHub. Anteriormente fue software libre, pero pasó a ser de código cerrado.
+[GitBook] es una solución de documentación alojada, que genera un sitio atractivo y funcional a partir de archivos Markdown en tu repositorio de GitHub. Anteriormente fue software libre, pero pasó a ser de código cerrado.
 
 **Ventajas**
 
@@ -89,7 +93,7 @@ GitBook es una solución de documentación alojada, que genera un sitio atractiv
 - Markdown limitado, no tan avanzado como Python Markdown  
 - Muchos proyectos Open Source migraron fuera de GitBook
 
-> Muchos usuarios migraron de GitBook a Material for [MkDocs] para mantener el control y propiedad de su documentación, prefiriendo una solución abierta.
+> Muchos usuarios migraron de [GitBook] a Material for [MkDocs] para mantener el control y propiedad de su documentación, prefiriendo una solución abierta.
 
 ## Zola
 
@@ -138,6 +142,13 @@ GitBook es una solución de documentación alojada, que genera un sitio atractiv
 - Alta complejidad, no es una solución "plug-and-play"  
 - Requiere conocimientos avanzados de React y JavaScript  
 - Excesivo para documentación estática sencilla
+
+## ¿Por qué aquí MkDocs?
+
+Se puede afirmar con claridad: MkDocs está fuertemente dirigido a la presentación de documentación técnica.
+
+Su estructura, enfoque en Markdown, y temas como Material for MkDocs lo hacen ideal para documentar proyectos de software, APIs, o manuales técnicos.
+
 
 [Jamstack]: https://jamstack.org/
 
