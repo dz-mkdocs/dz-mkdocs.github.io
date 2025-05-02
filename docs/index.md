@@ -1,16 +1,20 @@
 # Bienvenido a DZ MkDocs
 
-Esta documentación está generada con [MkDocs](https://www.mkdocs.org/), con un theme de diseño limpio y clásico pensado para documentación técnica.
+Esta es una documentación generada con **MkDocs** y el tema **Material for MkDocs**.
 
-## Contenido
+## Características principales
 
-- Recursos técnicos organizados por tema
-- Enlaces útiles para formación
+- 🧩 Modular y extensible
+- 🎨 Theme moderno y configurable
+- 🔎 Búsqueda rápida integrada
+- 💡 Soporte para componentes enriquecidos Markdown (tabs, admonitions, etc.)
 
-## Próximamente
+## Enlaces útiles
 
-Actualizaciones con nuevas secciones y funcionalidades interactivas.
+- [Guía oficial de MkDocs](https://www.mkdocs.org)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [GitHub del proyecto](https://github.com/dz-mkdocs)
 
 ---
 
-[Ver en GitHub](https://github.com/dz-mkdocs/dz-mkdocs.github.io)
+¿Listo para comenzar? Modifica este archivo `index.md` o agrega nuevos en el directorio `docs/`.
