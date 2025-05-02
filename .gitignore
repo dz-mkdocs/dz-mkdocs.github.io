@@ -2,6 +2,8 @@
 DEBUG/
 my-code/
 tutorial-in-devel/
+chatgpt-*
+
 **/*.initial
 **/*-local*
 **/*
