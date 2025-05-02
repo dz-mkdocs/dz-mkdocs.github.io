@@ -2,6 +2,27 @@
 
 Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean orientados esclusivamente a la documentación técnica o no), elegir el más adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
 
+## 📊 Tabla comparativa - algunos SSG
+
+| Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Enfoque en Docs Técnicas | Requiere JS/React | Código Abierto |
+|---------------|---------------|------------------|-----------|---------------------------|--------------------|----------------|
+| **[MkDocs]**    | Python        | Alta             | Alta      | ✅ Muy fuerte             | ❌ No              | ✅ Sí          |
+| **[Docusaurus]**| JavaScript    | Media-baja       | Media     | ✅ Sí (SPA)               | ✅ Sí              | ✅ Sí          |
+| **[Jekyll]**    | Ruby          | Media            | Media     | ⚠️ Limitado               | ❌ No              | ✅ Sí          |
+| **[Sphinx]**    | Python        | Baja             | Media     | ✅ Fuerte en referencia    | ❌ No              | ✅ Sí          |
+| **[GitBook]**   | Web / JS      | Muy alta         | Alta      | ⚠️ Limitado (Markdown)    | ❌ No              | ❌ No (cerrado)|
+| **[Zola]**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
+| **[Hugo]**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
+| **[Next.js]**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
+
+## Sitio [Jamstack]
+
+> El sitio [Jamstack].org es el sitio oficial que promueve la arquitectura [Jamstack] (JavaScript, APIs y Markup) para crear sitios web rápidos y seguros.
+>
+> El contenido en [jamstack.org/generators] lista generadores de sitios estáticos compatibles con esta arquitectura, como [Hugo], [Jekyll] o [Zola], ayudando a elegir herramientas según necesidades específicas.
+>
+
+
 ## Docusaurus
 
 [Docusaurus], de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
@@ -36,7 +57,7 @@ Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean 
 
 ## Sphinx
 
-Sphinx es un generador de sitios estáticos orientado específicamente a generar documentación de referencia. Ofrece capacidades potentes que [MkDocs] no incluye. Usa reStructuredText, un formato similar a Markdown que algunos consideran más complejo.
+[Sphinx] es un generador de sitios estáticos orientado específicamente a generar documentación de referencia. Ofrece capacidades potentes que [MkDocs] no incluye. Usa reStructuredText, un formato similar a Markdown que algunos consideran más complejo.
 
 **Ventajas**
 
@@ -118,24 +139,9 @@ GitBook es una solución de documentación alojada, que genera un sitio atractiv
 - Requiere conocimientos avanzados de React y JavaScript  
 - Excesivo para documentación estática sencilla
 
-## 📊 Tabla comparativa resumen
+[Jamstack]: https://jamstack.org/
 
-| Generador     | Lenguaje Base | Facilidad de uso | Velocidad | Enfoque en Docs Técnicas | Requiere JS/React | Código Abierto |
-|---------------|---------------|------------------|-----------|---------------------------|--------------------|----------------|
-| **[MkDocs]**    | Python        | Alta             | Alta      | ✅ Muy fuerte             | ❌ No              | ✅ Sí          |
-| **[Docusaurus]**| JavaScript    | Media-baja       | Media     | ✅ Sí (SPA)               | ✅ Sí              | ✅ Sí          |
-| **[Jekyll]**    | Ruby          | Media            | Media     | ⚠️ Limitado               | ❌ No              | ✅ Sí          |
-| **[Sphinx]**    | Python        | Baja             | Media     | ✅ Fuerte en referencia    | ❌ No              | ✅ Sí          |
-| **[GitBook]**   | Web / JS      | Muy alta         | Alta      | ⚠️ Limitado (Markdown)    | ❌ No              | ❌ No (cerrado)|
-| **[Zola]**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
-| **[Hugo]**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
-| **[Next.js]**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
-
-## Referencias útiles
-
-- [Site Jamstack]
-
-[Site Jamstack]: https://jamstack.org/generators/
+[jamstack.org/generators]: https://jamstack.org/generators/
 
 [Docusaurus]: https://docusaurus.io/
 
