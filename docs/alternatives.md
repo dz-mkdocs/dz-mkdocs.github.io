@@ -125,11 +125,11 @@ Next.js es un framework basado en React para construir sitios web tanto estátic
 | **[MkDocs]**    | Python        | Alta             | Alta      | ✅ Muy fuerte             | ❌ No              | ✅ Sí          |
 | **[Docusaurus]**| JavaScript    | Media-baja       | Media     | ✅ Sí (SPA)               | ✅ Sí              | ✅ Sí          |
 | **[Jekyll]**    | Ruby          | Media            | Media     | ⚠️ Limitado               | ❌ No              | ✅ Sí          |
-| **Sphinx**    | Python        | Baja             | Media     | ✅ Fuerte en referencia    | ❌ No              | ✅ Sí          |
-| **GitBook**   | Web / JS      | Muy alta         | Alta      | ⚠️ Limitado (Markdown)    | ❌ No              | ❌ No (cerrado)|
-| **Zola**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
-| **Hugo**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
-| **Next.js**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
+| **[Sphinx]**    | Python        | Baja             | Media     | ✅ Fuerte en referencia    | ❌ No              | ✅ Sí          |
+| **[GitBook]**   | Web / JS      | Muy alta         | Alta      | ⚠️ Limitado (Markdown)    | ❌ No              | ❌ No (cerrado)|
+| **[Zola]**      | Rust          | Alta             | Muy alta  | ⚠️ Básico                 | ❌ No              | ✅ Sí          |
+| **[Hugo]**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
+| **[Next.js]**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
 
 <!-- Fin del contenido Markdown -->
 
@@ -150,3 +150,6 @@ Next.js es un framework basado en React para construir sitios web tanto estátic
 [GitBook]: https://www.gitbook.com/
 
 [Jekyll]: https://jekyllrb.com/
+
+[Sphinx]: https://www.sphinx-doc.org/en/master/
+
