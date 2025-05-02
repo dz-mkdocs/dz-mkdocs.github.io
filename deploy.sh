@@ -8,7 +8,8 @@ cd "$SCRIPT_DIR"
 # Inicializar la variable con el path actual
 ACTUAL_PWD="$SCRIPT_DIR"
 
-echo "Estoy en el \$PWD: ${ACTUAL_PWD}"
+echo -e "[$(date)] Estoy en el \$PWD: ${ACTUAL_PWD}\n\n"
+sleep 3
 
 # Asegúrate de estar en la raíz del proyecto
 echo "[$(date)] Comprobando si estamos en la raíz del proyecto..."
