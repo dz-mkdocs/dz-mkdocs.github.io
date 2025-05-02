@@ -4,7 +4,7 @@ Existen muchos generadores de sitios estáticos (SSG) y temas disponibles (sean 
 
 ## Docusaurus
 
-[Docusaurus], de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página, lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
+[Docusaurus], de Facebook, es un generador de documentación muy popular y una buena elección si tú o tu empresa ya están utilizando React para construir sitios. Genera una aplicación de una sola página ([single page application]), lo cual es fundamentalmente diferente del sitio que genera Material for [MkDocs].
 
 **Ventajas**
 
@@ -131,7 +131,11 @@ GitBook es una solución de documentación alojada, que genera un sitio atractiv
 | **[Hugo]**      | Go            | Media            | Muy alta  | ⚠️ No específico          | ❌ No              | ✅ Sí          |
 | **[Next.js]**   | JavaScript    | Baja             | Alta      | ✅ Avanzado e interactivo | ✅ Sí              | ✅ Sí          |
 
-<!-- Fin del contenido Markdown -->
+## Referencias útiles
+
+- [Site Jamstack]
+
+[Site Jamstack]: https://jamstack.org/generators/
 
 [Docusaurus]: https://docusaurus.io/
 
