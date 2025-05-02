@@ -1,6 +1,6 @@
 INITIAL/
 zz-legacy
-*.org
+**/*.org
 
 # Dependencies
 node_modules
