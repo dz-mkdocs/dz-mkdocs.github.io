@@ -1,18 +1,13 @@
 # Alternatives
 
-There are tons of static site generators and themes out there and choosing the
-right one for your tech stack is a tough decision. If you're unsure if Material
-for MkDocs is the right solution for you, this section should help you evaluate
-alternative solutions.
+Existen muchos generadores de sitios web estáticos (SSG) y temas, y elegir el adecuado para tu stack tecnológico es una decisión difícil. Si no estás seguro de si Material for MkDocs es la solución ideal para ti, esta sección te ayudará a evaluar alternativas.
 
 ## Docusaurus
 
-[Docusaurus] by Facebook is a very popular documentation generator and a good
-choice if you or your company are already using [React] to build your site.
-It will generate a [single page application] which is fundamentally different
-from the site Material for MkDocs generates for you.
+[Docusaurus] de Facebook es un generador de documentación muy popular y una buena opción si tú o tu empresa ya utilizan [React] para crear su sitio web.
+Generará una [aplicación de página única] que es fundamentalmente diferente del sitio que Material for MkDocs genera.
 
-__Advantages__
+__Ventajas__
 
 - Very powerful, customizable and extendable
 - Provides many components that aid in technical writing
