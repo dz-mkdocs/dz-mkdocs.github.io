@@ -2,7 +2,7 @@
 
 # Alternativas
 
-Existen muchos generadores de sitios estáticos y temas disponibles, elegir el adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
+Existen muchos generadores de sitios estáticos y temas disponibles (sean orientados esclusivamente a la documentación técnica o no), elegir el más adecuado para tu stack tecnológico puede ser una decisión difícil. Si no estás seguro de que _Material for [MkDocs]_ sea la solución correcta para ti, esta sección ayuda a evaluar soluciones alternativas.
 
 ## Docusaurus
 
