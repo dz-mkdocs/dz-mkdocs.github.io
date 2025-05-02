@@ -1,0 +1,22 @@
+.env
+DEBUG/
+my-code/
+tutorial-in-devel/
+# Entorno virtual de Python
+.venv/
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuración del sistema operativo/editor
+.DS_Store
+*.swp
+*.swo
+
+# Salida del build de MkDocs
+site/ 
+
+# Archivos de logs temporales o de depuración
+*.log
