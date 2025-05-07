@@ -2,8 +2,8 @@ site_name: dz MkDocs
 site_url: https://dz-mkdocs.github.io/  #    squidfunk.github.io/mkdocs-material/
 site_author: clone from Martin Donath
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+  Documentación escrita en Markdown, para generar sitio de contenido estático
+   con artículos técnicos varios.
 
 # Repository
 repo_name: dz-mkdocs/dz-mkdocs.github.io                   #squidfunk/mkdocs-material
@@ -103,7 +103,7 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@squidfunk
     - icon: fontawesome/brands/x-twitter
-      link: https://x.com/squidfunk
+      link: https://x.com #/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -161,29 +161,31 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Conventions: conventions.md
-    - Browser support: browser-support.md
-    - Enterprise feedback: enterprise-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
-    - License: license.md
-    - Tutorials:
-      - tutorials/index.md
-      - "Blogs":
-        - tutorials/blogs/basic.md
-        - tutorials/blogs/navigation.md
-        - tutorials/blogs/engage.md
-      - "Social cards":
-        - tutorials/social/basic.md
-        - tutorials/social/custom.md
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
+  - Instalaciones en mis PCs:
+    - qBittorrent + Jackett: installations-on-my-pcs/qbittorrent-add-servers-w-jackett.md
+      #  - Getting started:
+      #    - Installation: getting-started.md
+      #    - Creating your site: creating-your-site.md
+      #    - Publishing your site: publishing-your-site.md
+      #    - Customization: customization.md
+      #    - Conventions: conventions.md
+      #    - Browser support: browser-support.md
+      #    - Enterprise feedback: enterprise-support.md
+      #    - Philosophy: philosophy.md
+      #    - Alternatives: alternatives.md
+      #    - License: license.md
+      #    - Tutorials:
+      #      - tutorials/index.md
+      #      - "Blogs":
+      #        - tutorials/blogs/basic.md
+      #        - tutorials/blogs/navigation.md
+      #        - tutorials/blogs/engage.md
+      #      - "Social cards":
+      #        - tutorials/social/basic.md
+      #        - tutorials/social/custom.md
+      #    - Changelog:
+      #      - changelog/index.md
+      #      - How to upgrade: upgrade.md
   - Setup:
     - setup/index.md
     - Changing the colors: setup/changing-the-colors.md

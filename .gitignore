@@ -1,6 +1,7 @@
 INITIAL/
 zz-legacy
 **/*.org
+**my-work-session/
 
 # Dependencies
 node_modules
