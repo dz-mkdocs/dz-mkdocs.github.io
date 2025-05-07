@@ -25,7 +25,7 @@
       "type": "string"
     },
     "site_description": {
-      "title": "Site description, used in document head and in social cards",
+      "title": "Sitio con artículos de TI, de uso personal",
       "markdownDescription": "https://www.mkdocs.org/user-guide/configuration/#site_description",
       "type": "string"
     },
