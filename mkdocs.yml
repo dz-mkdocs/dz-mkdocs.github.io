@@ -91,19 +91,19 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/squidfunk.bsky.social
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com #/squidfunk
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/squidfunk
+#    - icon: fontawesome/brands/docker
+#      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+#    - icon: fontawesome/brands/python
+#      link: https://pypi.org/project/mkdocs-material/
+#    - icon: fontawesome/brands/bluesky
+#      link: https://bsky.app/profile/squidfunk.bsky.social
+#    - icon: fontawesome/brands/mastodon
+#      link: https://fosstodon.org/@squidfunk
+#    - icon: fontawesome/brands/x-twitter
+#      link: https://x.com/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -163,6 +163,8 @@ nav:
   - Home: index.md
   - Instalaciones en mis PCs:
     - qBittorrent + Jackett: installations-on-my-pcs/qbittorrent-add-servers-w-jackett.md
+  - Aprendiendo Azure:
+    - Comparativa rápida de herramientas de seguridad: azure-learning/comparative-tools-security.md
       #  - Getting started:
       #    - Installation: getting-started.md
       #    - Creating your site: creating-your-site.md
