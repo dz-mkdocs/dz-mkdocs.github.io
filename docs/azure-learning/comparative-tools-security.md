@@ -15,7 +15,7 @@ Tabla comparativa rápida (tipo resumen mental) para ayudar a diferenciar las he
 |NSG (Network Security Group)| 🌐 Tráfico de red (IP, puertos)| Nivel red (subred o NIC)| Controlar entrada/salida en una VM o subnet|
 |Azure Policy| 🏛️ Gobernanza y cumplimiento| ARM| Impedir creación de VMs en regiones no permitidas, tagging|
 
-### 🧠 Idea mental:
+### 🧠 Idea mental
 
     RBAC = "¿Qué puede hacer este usuario aquí?" (autorizar recursos).
 

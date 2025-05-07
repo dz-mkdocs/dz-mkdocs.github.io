@@ -1,0 +1,23 @@
+# Ignore all content inside external/, except the folder itself
+external/*
+!external/.keep
+
+# Optional: allow specific subfolders or files if needed
+#!external/readme.md
+#!external/backups/important.tar.gz
+
+# Other common ignores
+*.zip
+*.tar.gz
+*.bak
+*.old
+*.tmp
+
+# OS/System junk
+.DS_Store
+Thumbs.db
+
+# Exclude patial over pkm from repo git
+pkm/daily/*                            
+!pkm/.keep
+
